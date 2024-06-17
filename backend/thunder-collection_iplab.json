@@ -1,0 +1,195 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "iplab",
+    "collectionId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+    "dateExported": "2024-06-17T21:20:03.112Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d6e515b0-bd1a-426e-9383-9ab980e33236",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "ping",
+            "url": "http://localhost:8000/ping",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-17T20:22:38.200Z",
+            "modified": "2024-06-17T20:22:57.184Z",
+            "headers": []
+        },
+        {
+            "_id": "c1a1d873-7cd8-4b04-9aa6-9193eba051af",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:8000/auth/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-17T20:23:15.069Z",
+            "modified": "2024-06-17T20:24:45.269Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Alve Reduan\",\n  \"email\": \"iam.reduan@gmail.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "292a5f48-962c-4644-a3b8-bd319c1a8153",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:8000/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-06-17T20:26:00.221Z",
+            "modified": "2024-06-17T20:44:51.078Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email_admin\": \"super@admin.com\",\n  \"email_non_admin\": \"iam.reduan@gmail.com\",\n  \"email\": \"super@admin.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7c80613e-7a6c-46cb-b6ba-18564260a085",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "me",
+            "url": "http://localhost:8000/auth/me",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-17T20:29:45.979Z",
+            "modified": "2024-06-17T20:30:13.801Z",
+            "headers": []
+        },
+        {
+            "_id": "f04d7bac-c0e6-4d29-9bb8-24f2487d1b06",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "categories",
+            "url": "http://localhost:8000/category/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-06-17T20:39:04.545Z",
+            "modified": "2024-06-17T20:39:20.140Z",
+            "headers": []
+        },
+        {
+            "_id": "38cbe002-b428-42b1-afb8-537aafa6387e",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "create product",
+            "url": "http://localhost:8000/products/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-06-17T20:41:37.115Z",
+            "modified": "2024-06-17T20:47:53.274Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Sample Phone\",\n  \"category_id\": 1,\n  \"price\": 10.00,\n  \"desc\": \"Some description\",\n  \"features\": {\n    \"display_size\": \"6.1\",\n    \"display_res\": \"1920x1080p\",\n    \"display_panel\": \"ips\",\n    \"ram\": \"8GB\",\n    \"battery_capacity\": \"3800mAh\",\n    \"camera_pixel\": \"4k\",\n    \"max_charge_capacity\": \"30w\"\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "00c32c1e-9eca-4cb3-8f27-bf053285ec8f",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "List Products",
+            "url": "http://localhost:8000/products/",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-06-17T20:48:47.744Z",
+            "modified": "2024-06-17T20:49:01.275Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Sample Phone\",\n  \"category_id\": 1,\n  \"price\": 10.00,\n  \"desc\": \"Some description\",\n  \"features\": {\n    \"display_size\": \"6.1\",\n    \"display_res\": \"1920x1080p\",\n    \"display_panel\": \"ips\",\n    \"ram\": \"8GB\",\n    \"battery_capacity\": \"3800mAh\",\n    \"camera_pixel\": \"4k\",\n    \"max_charge_capacity\": \"30w\"\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6b79fa29-8d1d-42b2-9d04-5facb3cb02ff",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "Create comment",
+            "url": "http://localhost:8000/comments/",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-06-17T21:06:46.325Z",
+            "modified": "2024-06-17T21:15:26.328Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"product_id\": 1,\n  \"rating\": {\n    \"camera\": 4,\n    \"battery\": 3.5,\n    \"performance\": 4.5,\n    \"display\": \"4.2\",\n    \"build\": \"3.4\"\n  },\n  \"body\": \"Great product\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "012951e9-c46b-46eb-856a-23392b39b53d",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "Product Details",
+            "url": "http://localhost:8000/products/1",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-06-17T21:18:12.826Z",
+            "modified": "2024-06-17T21:18:21.862Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Sample Phone\",\n  \"category_id\": 1,\n  \"price\": 10.00,\n  \"desc\": \"Some description\",\n  \"features\": {\n    \"display_size\": \"6.1\",\n    \"display_res\": \"1920x1080p\",\n    \"display_panel\": \"ips\",\n    \"ram\": \"8GB\",\n    \"battery_capacity\": \"3800mAh\",\n    \"camera_pixel\": \"4k\",\n    \"max_charge_capacity\": \"30w\"\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "38610d65-cf61-4455-931f-2ad6c85a1b72",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "comments of product",
+            "url": "http://localhost:8000/comments/4",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-06-17T21:09:52.961Z",
+            "modified": "2024-06-17T21:10:23.750Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"product_id\": 4,\n  \"rating\": {\n    \"camera\": 4,\n    \"battery\": 3.5,\n    \"performance\": 4.5,\n    \"display\": \"4.2\",\n    \"build\": \"3.4\"\n  },\n  \"body\": \"Great product\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "739488de-43c3-4b89-9989-405af50ca2f5",
+            "colId": "7dc6bbc8-2899-492a-8beb-f9881e6abbec",
+            "containerId": "",
+            "name": "Recommendation",
+            "url": "http://localhost:8000/products/recommendation?category_id=1&price=10",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-06-17T21:18:25.958Z",
+            "modified": "2024-06-17T21:19:00.014Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "category_id",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "price",
+                    "value": "10",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Sample Phone\",\n  \"category_id\": 1,\n  \"price\": 10.00,\n  \"desc\": \"Some description\",\n  \"features\": {\n    \"display_size\": \"6.1\",\n    \"display_res\": \"1920x1080p\",\n    \"display_panel\": \"ips\",\n    \"ram\": \"8GB\",\n    \"battery_capacity\": \"3800mAh\",\n    \"camera_pixel\": \"4k\",\n    \"max_charge_capacity\": \"30w\"\n  }\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "RU8MdFq-uX5BFqjp0mCxhO1eqN-uMPkVmbvOz5Met6TiqZz_gPUN0o-jWlb7Mo_yzj3Aa4ccicW42WgXj0aKjg"
+}
